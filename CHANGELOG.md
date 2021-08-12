@@ -13,7 +13,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* downport `AnalyticalTable`, `FilterBar` `VariantManagement` and `DynamicPageTitle` changes ([#1975](https://github.com/SAP/ui5-webcomponents-react/issues/1975)) ([feb5ccb](https://github.com/SAP/ui5-webcomponents-react/commit/feb5ccb468576e08d2a6dc35673717f40c2ab96a)), closes [#1954](https://github.com/SAP/ui5-webcomponents-react/issues/1954) [#1969](https://github.com/SAP/ui5-webcomponents-react/issues/1969) [#1968](https://github.com/SAP/ui5-webcomponents-react/issues/1968)
+* downport `AnalyticalTable`, `FilterBar` `VariantManagement` and `DynamicPageTitle` changes ([#1975](https://github.com/SAP/ui5-webcomponents-react/issues/1975)) ([feb5ccb](https://github.com/SAP/ui5-webcomponents-react/commit/feb5ccb468576e08d2a6dc35673717f40c2ab96a))
+
+### Downport
+
+* **AnalyticalTable:** don't throw errors on empty table ([#1968](https://github.com/SAP/ui5-webcomponents-react/issues/1968)) ([c2400e0](https://github.com/SAP/ui5-webcomponents-react/commit/c2400e03778b6fca3165dcfc3916866230f210b8))
+* **DynamicPageTitle:** only render actions toolbar if necessary ([#1969](https://github.com/SAP/ui5-webcomponents-react/issues/1969)) ([5c80a71](https://github.com/SAP/ui5-webcomponents-react/commit/5c80a7124bf69c4d38421a14c6e9463b4c212673))
+* **FilterBar:** pass refs of FilterGroupItems children to rendered component ([#1954](https://github.com/SAP/ui5-webcomponents-react/issues/1954)) ([26b7e12](https://github.com/SAP/ui5-webcomponents-react/commit/26b7e121ceb59211e694641f5889cb749456733c))
 
 
 
